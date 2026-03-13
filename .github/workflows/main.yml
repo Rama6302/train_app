@@ -6,7 +6,7 @@ on:
       - main
 
 env:
-  IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/node-ci-cd
+  IMAGE_NAME: rama6302454450/train_app
   IMAGE_TAG: latest
 
 jobs:
